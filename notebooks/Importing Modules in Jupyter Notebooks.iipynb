@@ -1,0 +1,14 @@
+import sys
+import os
+
+# Add the root directory of the project to sys.path
+sys.path.append(os.path.abspath(".."))
+
+# Now you can import your package
+from CH_PACKAGE import ch_functions
+
+# Example usage
+api_key = 'your_api_key_here'
+company_number = '12345678'
+details = ch_functions.get_company_details(api_key, company_number)
+print(details)

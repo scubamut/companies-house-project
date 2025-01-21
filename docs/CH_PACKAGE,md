@@ -1,0 +1,14 @@
+COMPANIES-HOUSE-PROJECT/
+│
+├── CH_PACKAGE/
+│   ├── __init__.py
+│   ├── ch_functions.py
+│   ├── CH_BASICS/
+│   │   ├── __init__.py
+│   │   └── module1.py
+│   └── CH_FUNCTIONS/
+│       ├── __init__.py
+│       └── module2.py
+│
+├── main.ipynb
+└── README.md
