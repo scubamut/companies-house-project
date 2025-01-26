@@ -1,22 +1,22 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='CH_FUNCTIONS',
+    name='chtools',
     version='0.1.0',
     packages=find_packages(),
     install_requires=[
         'requests',
     ],
-    author='Your Name',
-    author_email='your.email@example.com',
+    author='daveG',
+    author_email='scubamut@gmail.com',
     description='A package to interact with the UK Companies House API',
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
-    url='https://github.com/yourusername/CH_FUNCTIONS',
+    url='https://github.com/scubamut/companies-house-project',
     classifiers=[
         'Programming Language :: Python :: 3',
         'License :: OSI Approved :: MIT License',
-        'Operating System :: OS Independent',
+        'Operating System :: ubuntu',
     ],
-    python_requires='>=3.6',
+    python_requires='>=3.10'
 )

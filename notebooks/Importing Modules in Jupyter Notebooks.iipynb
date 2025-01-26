@@ -5,7 +5,7 @@ import os
 sys.path.append(os.path.abspath(".."))
 
 # Now you can import your package
-from CH_PACKAGE import ch_functions
+from chtools import ch_functions
 
 # Example usage
 api_key = 'your_api_key_here'

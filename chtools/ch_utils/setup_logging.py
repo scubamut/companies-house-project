@@ -1,5 +1,8 @@
+import logging
+
 # Set up logging
-def setup_logging() -> logging.Logger:
+def setup_logging():
+
     logger = logging.getLogger(__name__)
     logger.propagate = False
     logger.setLevel(logging.INFO)

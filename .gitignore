@@ -112,3 +112,4 @@ ENV/
 
 # mkdocs build dir
 site/
+companies_house/ch_basics/ch_core.py

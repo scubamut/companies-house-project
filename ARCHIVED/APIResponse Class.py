@@ -1,3 +1,5 @@
+
+
 class APIResponse(BaseModel):
     items: List[Dict[str, Any]]
     total_results: Optional[int] = None
